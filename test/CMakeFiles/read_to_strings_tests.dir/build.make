@@ -142,8 +142,8 @@ test/read_to_strings_tests: test/CMakeFiles/read_to_strings_tests.dir/__/src/cra
 test/read_to_strings_tests: test/CMakeFiles/read_to_strings_tests.dir/read_to_strings.cpp.o
 test/read_to_strings_tests: test/CMakeFiles/read_to_strings_tests.dir/main.cpp.o
 test/read_to_strings_tests: test/CMakeFiles/read_to_strings_tests.dir/build.make
-test/read_to_strings_tests: googletest-build/googlemock/gtest/libgtest_maind.a
-test/read_to_strings_tests: googletest-build/googlemock/gtest/libgtestd.a
+test/read_to_strings_tests: googletest-build/googlemock/gtest/libgtest_main.a
+test/read_to_strings_tests: googletest-build/googlemock/gtest/libgtest.a
 test/read_to_strings_tests: test/CMakeFiles/read_to_strings_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/c_cpp/HW1/C_Cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable read_to_strings_tests"
 	cd /home/daniel/c_cpp/HW1/C_Cpp/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/read_to_strings_tests.dir/link.txt --verbose=$(VERBOSE)

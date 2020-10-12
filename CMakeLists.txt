@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.1)
 
 project(IZ1)
 
+
+set(CMAKE_C_STANDARD 99)
 ##
 ### Test definitions ###
 ##

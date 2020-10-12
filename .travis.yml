@@ -39,9 +39,11 @@ install:
 
 script:
     # скрипт сборки и тестирования проекта:
-    - cmake CMakeLists.txt
-    - make
-    - ctest
+    - mkdir build
+    - cd build
+    - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_CONFIGURATION -DTARGET_CPU=$TARGET_CPU
+    - cmake --build .
+    - ctest --output-on-failure
 
 deploy:
     # выкладываем tagged-коммиты на GitHub Releases:

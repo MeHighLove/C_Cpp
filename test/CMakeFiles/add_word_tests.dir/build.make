@@ -142,8 +142,8 @@ test/add_word_tests: test/CMakeFiles/add_word_tests.dir/__/src/craft_string.c.o
 test/add_word_tests: test/CMakeFiles/add_word_tests.dir/add_word.cpp.o
 test/add_word_tests: test/CMakeFiles/add_word_tests.dir/main.cpp.o
 test/add_word_tests: test/CMakeFiles/add_word_tests.dir/build.make
-test/add_word_tests: googletest-build/googlemock/gtest/libgtest_maind.a
-test/add_word_tests: googletest-build/googlemock/gtest/libgtestd.a
+test/add_word_tests: googletest-build/googlemock/gtest/libgtest_main.a
+test/add_word_tests: googletest-build/googlemock/gtest/libgtest.a
 test/add_word_tests: test/CMakeFiles/add_word_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/c_cpp/HW1/C_Cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable add_word_tests"
 	cd /home/daniel/c_cpp/HW1/C_Cpp/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/add_word_tests.dir/link.txt --verbose=$(VERBOSE)

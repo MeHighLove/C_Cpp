@@ -3,13 +3,13 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -g   -pthread
+C_FLAGS =   -pthread -std=gnu99
 
 C_DEFINES = 
 
 C_INCLUDES = -I/home/daniel/c_cpp/HW1/C_Cpp/include -isystem /home/daniel/c_cpp/HW1/C_Cpp/googletest-src/googletest/include -isystem /home/daniel/c_cpp/HW1/C_Cpp/googletest-src/googletest 
 
-CXX_FLAGS = -g   -pthread
+CXX_FLAGS =   -pthread
 
 CXX_DEFINES = 
 

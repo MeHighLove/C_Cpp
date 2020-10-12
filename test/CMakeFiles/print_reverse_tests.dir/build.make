@@ -142,8 +142,8 @@ test/print_reverse_tests: test/CMakeFiles/print_reverse_tests.dir/__/src/craft_s
 test/print_reverse_tests: test/CMakeFiles/print_reverse_tests.dir/print_reverse.cpp.o
 test/print_reverse_tests: test/CMakeFiles/print_reverse_tests.dir/main.cpp.o
 test/print_reverse_tests: test/CMakeFiles/print_reverse_tests.dir/build.make
-test/print_reverse_tests: googletest-build/googlemock/gtest/libgtest_maind.a
-test/print_reverse_tests: googletest-build/googlemock/gtest/libgtestd.a
+test/print_reverse_tests: googletest-build/googlemock/gtest/libgtest_main.a
+test/print_reverse_tests: googletest-build/googlemock/gtest/libgtest.a
 test/print_reverse_tests: test/CMakeFiles/print_reverse_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/c_cpp/HW1/C_Cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable print_reverse_tests"
 	cd /home/daniel/c_cpp/HW1/C_Cpp/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/print_reverse_tests.dir/link.txt --verbose=$(VERBOSE)

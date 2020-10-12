@@ -142,8 +142,8 @@ test/create_string_tests: test/CMakeFiles/create_string_tests.dir/__/src/craft_s
 test/create_string_tests: test/CMakeFiles/create_string_tests.dir/create_string.cpp.o
 test/create_string_tests: test/CMakeFiles/create_string_tests.dir/main.cpp.o
 test/create_string_tests: test/CMakeFiles/create_string_tests.dir/build.make
-test/create_string_tests: googletest-build/googlemock/gtest/libgtest_maind.a
-test/create_string_tests: googletest-build/googlemock/gtest/libgtestd.a
+test/create_string_tests: googletest-build/googlemock/gtest/libgtest_main.a
+test/create_string_tests: googletest-build/googlemock/gtest/libgtest.a
 test/create_string_tests: test/CMakeFiles/create_string_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/c_cpp/HW1/C_Cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable create_string_tests"
 	cd /home/daniel/c_cpp/HW1/C_Cpp/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/create_string_tests.dir/link.txt --verbose=$(VERBOSE)
