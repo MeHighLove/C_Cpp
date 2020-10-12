@@ -23,9 +23,9 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Debug
+//Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
+// CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -274,6 +274,9 @@ IZ1_SOURCE_DIR:STATIC=/home/daniel/c_cpp/HW1/C_Cpp
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
+
+//No help, variable specified on the command line.
+TARGET_CPU:UNINITIALIZED=
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/daniel/c_cpp/HW1/C_Cpp/googletest-build/googlemock

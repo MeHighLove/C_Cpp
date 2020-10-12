@@ -1,6 +1,6 @@
-add_word 2 0.00187159
-create_string 2 0.00139105
-multiply_word 2 0.00140548
-print_reverse 2 0.00194001
-read_to_strings 2 0.00174344
+add_word 4 0.000789285
+create_string 4 0.000734746
+multiply_word 4 0.000781775
+print_reverse 4 0.00087899
+read_to_strings 4 0.00107002
 ---
