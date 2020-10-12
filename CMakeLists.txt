@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.1)
 
 project(IZ1)
 
-set(CXX_STANDARD)
+set(CMAKE_CXX_STANDARD 11)
 
 configure_file(CMakeLists.txt.in
         googletest-download/CMakeLists.txt)
