@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/IZ1.dir/src/craft_string.c.o"
   "CMakeFiles/IZ1.dir/src/main.c.o"
-  "IZ1"
   "IZ1.pdb"
+  "IZ1"
 )
 
 # Per-language clean rules from dependency scanning.
