@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/multiply_word_tests.dir/__/src/craft_string.c.o"
-  "CMakeFiles/multiply_word_tests.dir/multiply_word.cpp.o"
   "CMakeFiles/multiply_word_tests.dir/main.cpp.o"
-  "multiply_word_tests.pdb"
+  "CMakeFiles/multiply_word_tests.dir/multiply_word.cpp.o"
   "multiply_word_tests"
+  "multiply_word_tests.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

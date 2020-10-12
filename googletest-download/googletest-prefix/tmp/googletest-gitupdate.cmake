@@ -1,6 +1,3 @@
-if("release-1.8.1" STREQUAL "")
-  message(FATAL_ERROR "Tag for git checkout should not be empty.")
-endif()
 
 execute_process(
   COMMAND "/usr/bin/git" rev-list --max-count=1 HEAD
@@ -148,11 +145,14 @@ if(error_code OR is_remote_ref OR NOT ("${tag_sha}" STREQUAL "${head_sha}"))
     endif()
   endif()
 
-  execute_process(
-    COMMAND "/usr/bin/git" submodule update --recursive --init 
-    WORKING_DIRECTORY "/home/daniel/c_cpp/HW1/C_Cpp/googletest-src/"
-    RESULT_VARIABLE error_code
-    )
+  set(init_submodules TRUE)
+  if(init_submodules)
+    execute_process(
+      COMMAND "/usr/bin/git" submodule update --recursive --init 
+      WORKING_DIRECTORY "/home/daniel/c_cpp/HW1/C_Cpp/googletest-src/"
+      RESULT_VARIABLE error_code
+      )
+  endif()
   if(error_code)
     message(FATAL_ERROR "Failed to update submodules in: '/home/daniel/c_cpp/HW1/C_Cpp/googletest-src/'")
   endif()

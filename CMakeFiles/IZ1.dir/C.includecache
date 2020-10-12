@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/daniel/c_cpp/HW1/C_Cpp/src/craft_string.c
-IZ1/craft_string.h
-/home/daniel/c_cpp/HW1/C_Cpp/src/IZ1/craft_string.h
-
 /home/daniel/c_cpp/HW1/C_Cpp/src/main.c
 IZ1/craft_string.h
 /home/daniel/c_cpp/HW1/C_Cpp/src/IZ1/craft_string.h

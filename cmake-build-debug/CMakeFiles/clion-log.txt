@@ -1,0 +1,47 @@
+/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/daniel/c_cpp/HW1/C_Cpp
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daniel/c_cpp/HW1/C_Cpp/googletest-download
+Scanning dependencies of target googletest
+[ 11%] Creating directories for 'googletest'
+[ 22%] Performing download step (git clone) for 'googletest'
+Клонирование в «googletest-src»…
+Примечание: переход на «release-1.8.1».
+
+Вы сейчас в состоянии «отделённого HEAD». Вы можете осмотреться, сделать
+экспериментальные изменения и закоммитить их, также вы можете отменить
+изменения любых коммитов в этом состоянии не затрагивая любые ветки и
+не переходя на них.
+
+Если вы хотите создать новую ветку и сохранить свои коммиты, то вы
+можете сделать это (сейчас или позже) вызвав команду checkout снова,
+но с параметром -b. Например:
+
+  git checkout -b <имя-новой-ветки>
+
+HEAD сейчас на 2fe3bd99 Merge pull request #1433 from dsacre/fix-clang-warnings
+[ 33%] No patch step for 'googletest'
+[ 44%] Performing update step for 'googletest'
+[ 55%] No configure step for 'googletest'
+[ 66%] No build step for 'googletest'
+[ 77%] No install step for 'googletest'
+[ 88%] No test step for 'googletest'
+[100%] Completed 'googletest'
+[100%] Built target googletest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daniel/c_cpp/HW1/C_Cpp
