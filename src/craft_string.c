@@ -88,7 +88,7 @@ int print_reverse(String* last) {
         while(currently->word[i] != '\0') {
             printf("%c", currently->word[i]);
             ++i;
-            flag++;
+            ++flag;
         }
         printf(" ");
         free(currently->word);
