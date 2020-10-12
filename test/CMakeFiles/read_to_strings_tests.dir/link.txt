@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/read_to_strings_tests.dir/__/src/craft_string.c.o CMakeFiles/read_to_strings_tests.dir/read_to_strings.cpp.o CMakeFiles/read_to_strings_tests.dir/main.cpp.o  -o read_to_strings_tests ../googletest-build/googlemock/gtest/libgtest_main.a ../googletest-build/googlemock/gtest/libgtest.a -pthread 

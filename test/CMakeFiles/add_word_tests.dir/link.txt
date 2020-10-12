@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/add_word_tests.dir/__/src/craft_string.c.o CMakeFiles/add_word_tests.dir/add_word.cpp.o CMakeFiles/add_word_tests.dir/main.cpp.o  -o add_word_tests ../googletest-build/googlemock/gtest/libgtest_main.a ../googletest-build/googlemock/gtest/libgtest.a -pthread 
