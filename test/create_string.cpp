@@ -7,7 +7,7 @@ extern "C" {
 TEST(create_string, ok) {
     String* new_string = create_string();
     ASSERT_EQ(new_string->size, 1);
-    ASSERT_EQ(new_string->next, nullptr);
-    ASSERT_EQ(new_string->prev, nullptr);
-    ASSERT_NE(new_string->word, nullptr);
+    ASSERT_EQ(new_string->next, NULL);
+    ASSERT_EQ(new_string->prev, NULL);
+    ASSERT_NE(new_string->word, NULL);
 }

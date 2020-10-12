@@ -20,5 +20,5 @@ TEST(print_reverse, ok) {
 }
 
 TEST(print_reverse, not_ok) {
-    ASSERT_EQ(print_reverse(NULL), NULL);
+    ASSERT_EQ(print_reverse(NULL), -1);
 }

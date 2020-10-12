@@ -16,11 +16,11 @@ TEST(add_word, ok) {
     my_string->prev = NULL;
     String* new_string = add_word(my_string);
     ASSERT_EQ(new_string->prev, my_string);
-    ASSERT_EQ(new_string->next, nullptr);
+    ASSERT_EQ(new_string->next, NULL);
     ASSERT_EQ(new_string->size, 1);
-    ASSERT_NE(new_string->word, nullptr);
+    ASSERT_NE(new_string->word, NULL);
 }
 
 TEST(add_word, not_ok) {
-    ASSERT_EQ(add_word(nullptr), nullptr);
+    ASSERT_EQ(add_word(NULL), NULL);
 }

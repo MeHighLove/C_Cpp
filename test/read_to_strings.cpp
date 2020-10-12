@@ -32,7 +32,7 @@ TEST(add_word, not_ok) {
     my_string->size = 4;
     my_string->prev = NULL;
     FILE* file_to_read = fopen("example.txt", "r");
-    ASSERT_EQ(read_to_strings(file_to_read, nullptr), nullptr);
-    ASSERT_EQ(read_to_strings(nullptr, my_string), nullptr);
-    ASSERT_EQ(read_to_strings(nullptr, nullptr), nullptr);
+    ASSERT_EQ(read_to_strings(file_to_read, NULL), NULL);
+    ASSERT_EQ(read_to_strings(NULL, my_string), NULL);
+    ASSERT_EQ(read_to_strings(NULL, NULL), NULL);
 }

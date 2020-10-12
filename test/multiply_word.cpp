@@ -16,7 +16,7 @@ TEST(multiply_word, ok) {
     my_string->word[3] = 'v';
     my_string->prev = NULL;
     multiply_word(my_string);
-    ASSERT_EQ(my_string->prev, nullptr);
+    ASSERT_EQ(my_string->prev, NULL);
     ASSERT_EQ(my_string->next, sec_string);
     ASSERT_EQ(my_string->size, 8);
     ASSERT_EQ(my_string->word[0], 'd');
@@ -27,7 +27,7 @@ TEST(multiply_word, ok) {
 }
 
 TEST(multiply_word, not_ok) {
-    String* fail = nullptr;
+    String* fail = NULL;
     multiply_word(fail);
-    ASSERT_EQ(fail, nullptr);
+    ASSERT_EQ(fail, NULL);
 }

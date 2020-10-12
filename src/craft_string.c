@@ -80,7 +80,7 @@ int print_reverse(String* last) {
     int flag = 0;
     if(!last) {
         fprintf(stderr, "got no buf to print reverse");
-        return NULL;
+        return -1;
     }
     String* currently = last;
     while(currently) {
