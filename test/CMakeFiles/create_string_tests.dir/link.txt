@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/create_string_tests.dir/__/src/craft_string.c.o CMakeFiles/create_string_tests.dir/create_string.cpp.o CMakeFiles/create_string_tests.dir/main.cpp.o  -o create_string_tests ../googletest-build/googlemock/gtest/libgtest_main.a ../googletest-build/googlemock/gtest/libgtest.a -pthread 

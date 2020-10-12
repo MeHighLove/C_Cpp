@@ -1,6 +1,0 @@
-add_word 4 0.000789285
-create_string 4 0.000734746
-multiply_word 4 0.000781775
-print_reverse 4 0.00087899
-read_to_strings 4 0.00107002
----

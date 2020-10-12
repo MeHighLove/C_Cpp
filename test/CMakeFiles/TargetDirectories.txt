@@ -1,2 +1,0 @@
-/home/daniel/c_cpp/IZ1/test/CMakeFiles/rebuild_cache.dir
-/home/daniel/c_cpp/IZ1/test/CMakeFiles/edit_cache.dir

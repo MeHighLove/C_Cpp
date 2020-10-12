@@ -4,9 +4,6 @@ project(IZ1)
 
 
 set(CMAKE_C_STANDARD 99)
-##
-### Test definitions ###
-##
 
 configure_file(CMakeLists.txt.in
         googletest-download/CMakeLists.txt)
@@ -20,10 +17,6 @@ add_subdirectory(${CMAKE_BINARY_DIR}/googletest-src
 
 enable_testing()
 add_subdirectory(test)
-
-##
-### Source definitions ###
-##
 
 include_directories("${PROJECT_SOURCE_DIR}/include")
 
