@@ -1,3 +1,5 @@
+set(CMAKE_CXX_STANDARD 11)
+
 include_directories("${PROJECT_SOURCE_DIR}/include")
 
 file(GLOB sources "${PROJECT_SOURCE_DIR}/src/*.c")
@@ -16,3 +18,4 @@ foreach(file ${tests})
   target_link_libraries("${name}_tests" gtest_main)
   add_test(NAME ${name} COMMAND "${name}_tests" WORKING_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/Resources")
 endforeach()
+
