@@ -25,7 +25,7 @@ TEST(read_to_strings, ok) {
     ASSERT_EQ(last->word[4], '\0');
 }
 
-/*TEST(add_word, not_ok) {
+TEST(add_word, not_ok) {
     String* my_string = (String*)calloc(1, sizeof(String));
     my_string->word = (char*)calloc(4, sizeof(char));
     my_string->next = NULL;
@@ -35,4 +35,4 @@ TEST(read_to_strings, ok) {
     ASSERT_EQ(read_to_strings(file_to_read, nullptr), nullptr);
     ASSERT_EQ(read_to_strings(nullptr, my_string), nullptr);
     ASSERT_EQ(read_to_strings(nullptr, nullptr), nullptr);
-}*/
+}

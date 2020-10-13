@@ -19,6 +19,6 @@ TEST(print_reverse, ok) {
     ASSERT_NE(i, 4);
 }
 
-/*TEST(print_reverse, not_ok) {
+TEST(print_reverse, not_ok) {
     ASSERT_EQ(print_reverse(NULL), -1);
-}*/
+}
