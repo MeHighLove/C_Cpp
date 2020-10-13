@@ -13,9 +13,10 @@ TEST(print_reverse, ok) {
     my_string->word[1] = 'd';
     my_string->word[2] = 'd';
     my_string->prev = NULL;
-    //ASSERT_EQ(print_reverse(my_string), 3);
-    ASSERT_NE(print_reverse(my_string), 2);
-    //ASSERT_NE(print_reverse(my_string), 4);
+    int i = print_reverse(my_string);
+    ASSERT_EQ(i, 3);
+    ASSERT_NE(i, 2);
+    ASSERT_NE(i, 4);
 }
 
 /*TEST(print_reverse, not_ok) {
