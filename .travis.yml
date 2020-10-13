@@ -45,7 +45,7 @@ script:
     - cmake --build .
     - ctest --output-on-failure
     - valgrind --leak-check=yes ./IZ1 < ../test/Resources/example.txt
-    - cppcheck --enable=all ../test/*.cpp ../src/*.c ../include/
+    - cppcheck --enable=all ../test/*.cpp ../src/*.c ../include/IZ1/*.h
 
 
 deploy:
