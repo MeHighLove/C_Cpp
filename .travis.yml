@@ -41,10 +41,12 @@ script:
     # скрипт сборки и тестирования проекта:
     - mkdir build
     - cd build
-    - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_CONFIGURATION -DTARGET_CPU=$TARGET_CPU
+    - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_CONFIGURATION -DTARGET_CPU=$TARGET_CPU "-DCMAKE_CXX_CPPCHECK=/usr/bin/cppcheck;--std=c++11"
     - cmake --build .
     - ctest --output-on-failure
     - valgrind --leak-check=yes ./IZ1 < ../test/Resources/example.txt
+    - cppcheck --enable=all ../test/*.cpp ../src/*.c ../include/
+
 
 deploy:
     # выкладываем tagged-коммиты на GitHub Releases:

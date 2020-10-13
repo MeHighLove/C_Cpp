@@ -12,6 +12,7 @@ String* create_string() {
     new_string->word = (char*)calloc(1, sizeof(char));
     if(!new_string->word) {
         fprintf(stderr, "cannot creat new string\n");
+        free(new_string);
         return NULL;
     }
     return new_string;
