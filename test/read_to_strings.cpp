@@ -17,12 +17,11 @@ TEST(read_to_strings, ok) {
     ASSERT_EQ(my_string->word[2], 'l');
     ASSERT_EQ(my_string->word[3], 'l');
     ASSERT_EQ(my_string->word[4], 'o');
-    ASSERT_EQ(my_string->word[5], '\0');
-    ASSERT_EQ(last->word[0], 'g');
-    ASSERT_EQ(last->word[1], 'u');
-    ASSERT_EQ(last->word[2], 'y');
-    ASSERT_EQ(last->word[3], 's');
-    ASSERT_EQ(last->word[4], '\0');
+    ASSERT_EQ(my_string->word[5], '\n');
+    ASSERT_EQ(my_string->next->word[0], 'g');
+    ASSERT_EQ(my_string->next->word[1], 'u');
+    ASSERT_EQ(my_string->next->word[2], 'y');
+    ASSERT_EQ(my_string->next->word[3], 's');
 }
 
 TEST(add_word, not_ok) {

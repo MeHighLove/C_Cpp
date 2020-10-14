@@ -70,6 +70,12 @@ String* read_to_strings(FILE* file_to_read, String* first) {
             continue;
         }
         if(currently->word[i] == '\n') {
+            currently->word[i + 1] = '\0';
+            currently = add_word(currently);
+            i = 0;
+            continue;
+        }
+        if(currently->word[i] == EOF) {
             currently->word[i] = '\0';
             return currently;
         }
