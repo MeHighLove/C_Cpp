@@ -1,14 +1,10 @@
-#include "IZ1/craft_string.h"
+#include "IZ1/multiply_matrix.h"
 
 int main() {
-    String* first = create_string();
-    String* last = read_to_strings(stdin, first);
-    printf("\n");
-    int flag = print_reverse(last);
-    printf("\n");
-    if(flag == 0) {
-        fprintf(stderr, "Got no text to print\n");
-    }
-    free(first);
+    int size = 0;
+    scanf("%d", &size);
+    int** A = fill_matrix(size);
+    int** B = fill_matrix(size);
+    multiply_matrix(size, A, B);
     return 0;
 }

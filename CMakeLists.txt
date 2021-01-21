@@ -24,3 +24,5 @@ file(GLOB sources
   "${PROJECT_SOURCE_DIR}/src/*.c")
 
 add_executable(IZ1 ${sources})
+
+target_link_libraries(IZ1 PUBLIC pthread)
